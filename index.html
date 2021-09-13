@@ -1,0 +1,104 @@
+<html lang="FR-fr">
+    <head>
+        <meta charset="utf-8">
+        <title>FORMULAIRE</title>
+        <h3>FORMULAIRE</h3>
+        <style>
+body {
+  background-color: #f2f2f8;
+}
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Vos cordonnées</legend>
+                <table>
+                    <tr>
+                        <td>
+                            Nom:
+                        </td>
+                        <td>
+                            <input type="text" name="votre nom" placeholder="votre nom">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Prénom:
+                        </td>
+                        <td>
+                            <input type="text" name="votre prénom" placeholder="votre prénom">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date de naissance:
+                        </td>
+                        <td>
+                            <input type="text" name="Date de naissance" placeholder="jj/mm/aaaa">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Mail:
+                        </td>
+                        <td>
+                            <input type="text" name="Mail" placeholder="votre mail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Votre site:
+                        </td>
+                        <td>
+                            <input type="text" name="" placeholder="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Code:
+                        </td>
+                        <td>
+                            <input type="text" name="" placeholder="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Genre:
+                        </td>
+                        <td>
+                            <input type="radio" name="Genre" value="H">Homme <input type="radio" name="genre" value="F">Femme
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Pays:
+                        </td>
+                        <td>
+                            <select name="Pays">
+                                <option value="SN"></option>
+                                <option value="GB"></option>
+                        </td>
+                    </tr>
+                </table> 
+            </fieldset>
+            <fieldset>
+            <legend><h3>Vos goûts</h3></legend>	
+               <input type="checkbox" value="text">Tarte aux fraises à la crème d'amandes
+               <br />   
+               <input type="checkbox" value="text">Tarte aux prunes
+               <br />   
+               <input type="checkbox" value="text">Tarte rustique aux mirabelles de Lorraine,noisettes et miel
+               <br />   
+               <textarea cols="40" rows="6">Décrivez vos goûts en détail</textarea>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Envoyez nous votre Photo</h3></legend>
+               <input type="submit"value="choisir un fichier">
+               <p></p>
+               <input type="submit"value="Effacer">
+               <input type="submit"value="Envoyer" style="margin: 15px;">	
+        </fieldset>    
+        </form>
+    </body>
+</html>
